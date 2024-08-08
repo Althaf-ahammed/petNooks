@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 246 242 235;
+    --foreground: 86 70 64;
+
+    --secondary: 246 242 235;
+    --secondary-foreground: 102 107 116;
+
+    --card: 255 255 255;
+    --card-foreground: 86 70 64;
+
+    --primary: 236 147 67;
+    --primary-foreground: 236 147 67;
+
+    --heading: 86 70 64;
+    --text: 102 107 116;
+    --paragraph: 102 107 116;
+    --input: 102 107 116;
+    --label: 102 107 116;
+  }
+}
